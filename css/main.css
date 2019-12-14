@@ -27,11 +27,11 @@ body{
   padding: 1.3rem;
   max-width: 45em;
   margin: 0 auto;
+  justify-content: space-between;
 }
 
 .img-flex{
-  display: block;
-  width: 100%
+  width: 100%;
 }
 
 .section-body{
@@ -41,6 +41,7 @@ body{
 }
 
 .section-icon{
+  text-align: center;
   width: 50%;
 }
 
@@ -91,6 +92,7 @@ section{
     align-items: center;
     display: flex;
     margin: 0 auto;
+    justify-content: center;
   }
 
 .section-letter{
@@ -112,29 +114,28 @@ section{
     font-size: 120%;
   }
 
-  .wrapper{
-    padding: 0;
-  }
-
 .section-letter{
    width: 15%;
    margin: 1rem;
 }
 
 .section-icon {
-  width: 15%;
   margin: 1rem;
+  width: 15%;
 }
 
 .section-body{
   width: 55%;
 }
 
+  .wrapper{
+    padding: 0;
+  }
+}
 
 @media only screen and (min-width 90em){
 
   html {
-    line-height: 0.5;
     font-size: 130%;
   }
 
