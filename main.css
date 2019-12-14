@@ -16,3 +16,21 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+
+body{
+  margin: 0;
+}
+
+.wrapper{
+  flex-wrap: wrap;
+  display: flex;
+  padding: 1.3rem;
+  max-width: 45em;
+  margin: 0 auto;
+}
+
+.img-flex{
+  display: block;
+  width: 100%
+}
