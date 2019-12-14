@@ -41,7 +41,7 @@ body{
 }
 
 .section-icon{
-  width: 50%
+  width: 50%;
 }
 
 .section-letter{
@@ -49,13 +49,13 @@ body{
   width: 50%;
 }
 
-.section h2 {
+section h2 {
   margin: 0;
   padding-bottom: 0;
   font-size: 1.5rem;
 }
 
-.section p {
+section p {
   margin: 0;
 }
 
