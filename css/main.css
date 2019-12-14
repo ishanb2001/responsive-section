@@ -114,7 +114,6 @@ section{
 }
 
 .img-flex {
-  display: 100%;
   width: 80%;
 }
 .section-body{
@@ -128,19 +127,7 @@ section{
     font-size: 120%;
   }
 
-  .section-letter{
-   width: 30%;
-  }
-
-  .section-icon {
-  width: 30%;
-  }
-
   .img-flex {
   display: 100%;
   width: 80%;
   }
-  .section-body{
-  width: 40%;
-  }
-}
