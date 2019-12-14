@@ -85,14 +85,6 @@ section{
   width: 30%;
 }
 
-.img-flex {
-  display: 100%;
-  width: 100%;
-}
-.section-body{
-  width: 50%;
-}
-
 .section{
   margin: 0;
 }
@@ -113,11 +105,9 @@ section{
   width: 30%;
 }
 
-.img-flex {
-  width: 80%;
-}
+
 .section-body{
-  width: 40%;
+  width: 55%;
 }
 
 
@@ -127,7 +117,4 @@ section{
     font-size: 120%;
   }
 
-  .img-flex {
-  display: 100%;
-  width: 80%;
-  }
+}
