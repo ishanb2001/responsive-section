@@ -49,13 +49,13 @@ body{
   width: 50%;
 }
 
-section h2 {
+.section h2 {
   margin: 0;
   padding-bottom: 0;
   font-size: 1.5rem;
 }
 
-section p {
+.section p {
   margin: 0;
 }
 
@@ -65,14 +65,15 @@ section{
 
 @media only screen and (min-width 25em) {
 
-  section-icon{
+  .section-icon{
     padding: 0 .5rem;
     width: 45%;
   }
-  section-letter{
+  .section-letter{
     padding: 0 .5rem;
     width: 45%;
   }
+}
 
 @media only screen and (min-width 38em) {
 
@@ -81,8 +82,13 @@ section{
     font-size: 110%;
   }
 
+.section-body {
+  width: 50%;
+}
+
   .wrapper{
     flex-wrap: wrap;
+    align-items: center;
     display: flex;
     margin: 0 auto;
   }
@@ -107,7 +113,7 @@ section{
   }
 
   .wrapper{
-    flex-wrap: wrap;
+    padding: 0;
   }
 
 .section-letter{
