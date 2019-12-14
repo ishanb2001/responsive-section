@@ -17,11 +17,11 @@ html {
   box-sizing: inherit;
 }
 
-body{
+body {
   margin: 0;
 }
 
-.wrapper{
+.wrapper {
   flex-wrap: wrap;
   display: flex;
   padding: 1.3rem;
@@ -30,23 +30,23 @@ body{
   justify-content: space-between;
 }
 
-.img-flex{
+.img-flex {
   display: block;
   width: 100%;
 }
 
-.section-body{
+.section-body {
   text-align: left;
   font-size: 1rem;
   font-weight: normal;
 }
 
-.section-icon{
+.section-icon {
   text-align: center;
   width: 50%;
 }
 
-.section-letter{
+.section-letter {
   text-align: center;
   width: 50%;
 }
@@ -61,20 +61,22 @@ section p {
   margin: 0;
 }
 
-section{
+section {
   background-color: #e5c30a;
 }
 
 @media only screen and (min-width: 25em) {
 
-  .section-icon{
+  .section-icon {
     padding: 0 .5rem;
     width: 45%;
   }
-  .section-letter{
+
+  .section-letter {
     padding: 0 .5rem;
     width: 45%;
   }
+
 }
 
 @media only screen and (min-width: 38em) {
@@ -84,11 +86,11 @@ section{
     font-size: 110%;
   }
 
-.section-body {
-  width: 50%;
-}
+  .section-body {
+    width: 50%;
+  }
 
-  .wrapper{
+  .wrapper {
     flex-wrap: wrap;
     align-items: center;
     display: flex;
@@ -96,48 +98,49 @@ section{
     justify-content: center;
   }
 
-.section-letter{
-   width: 13%;
-   padding: 0;
-   margin: 1rem;
+  .section-letter {
+    width: 13%;
+    padding: 0;
+    margin: 1rem;
+  }
+
+  .section-icon {
+    order: 10;
+    width: 13%;
+    padding: 0;
+    margin: 1rem;
+  }
+
 }
 
-.section-icon {
-  order: 10;
-  width: 13%;
-  padding: 0;
-  margin: 1rem;
-
-}
-}
-
-@media only screen and (min-width: 60em){
+@media only screen and (min-width: 60em) {
 
   html {
     line-height: 1.5;
     font-size: 120%;
   }
 
-.section-letter{
-   width: 15%;
-   margin: 1rem;
-}
+  .section-letter {
+    width: 15%;
+    margin: 1rem;
+  }
 
-.section-icon {
-  margin: 1rem;
-  width: 15%;
-}
+  .section-icon {
+    margin: 1rem;
+    width: 15%;
+  }
 
-.section-body{
-  width: 55%;
-}
+  .section-body {
+    width: 55%;
+  }
 
-  .wrapper{
+  .wrapper {
     padding: 0;
   }
+
 }
 
-@media only screen and (min-width: 90em){
+@media only screen and (min-width: 90em) {
 
   html {
     font-size: 130%;
