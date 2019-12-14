@@ -27,7 +27,6 @@ body{
   padding: 1.3rem;
   max-width: 45em;
   margin: 0 auto;
-  justify-content: space-between;
 }
 
 .img-flex{
@@ -37,7 +36,8 @@ body{
 
 .section-body{
   text-align: left;
-  display: flex;
+  font-size: 1rem;
+  font-weight: normal;
 }
 
 .section-icon{
@@ -51,6 +51,8 @@ body{
 
 section h2 {
   margin: 0;
+  padding-bottom: 0;
+  font-size: 1.5rem;
 }
 
 section p {
@@ -64,17 +66,12 @@ section{
 @media only screen and (min-width 25em) {
 
   section-icon{
-    padding-left: 1rem;
-    width: 100%;
+    padding: 0 .5rem;
+    width: 45%;
   }
   section-letter{
-    padding-left: 1rem;
-    width: 100%;
-  }
-
-  html{
-    line-height: 1.5;
-    font-size: 100%;
+    padding: 0 .5rem;
+    width: 45%;
   }
 
 @media only screen and (min-width 38em) {
@@ -87,17 +84,18 @@ section{
   .wrapper{
     flex-wrap: wrap;
     display: flex;
-    padding: 1.3rem;
-    max-width: 45em;
     margin: 0 auto;
   }
 
 .section-letter{
-   width: 30%;
+   width: 13%;
+   padding: 0;
+   margin: 1rem;
 }
 
 .section-icon {
-  width: 30%;
+  order: 10;
+
 }
 }
 
@@ -110,10 +108,6 @@ section{
 
   .wrapper{
     flex-wrap: wrap;
-    display: flex;
-    padding: 1.3rem;
-    max-width: 45em;
-    margin: 0 auto;
   }
 
 .section-letter{
@@ -134,6 +128,7 @@ section{
 @media only screen and (min-width 90em){
 
   html {
+    line-height: 0.5;
     font-size: 130%;
   }
 
