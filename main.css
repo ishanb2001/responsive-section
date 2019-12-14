@@ -35,7 +35,7 @@ body{
   width: 100%
 }
 
-section-body{
+.section-body{
   text-align: left;
   display: flex;
 }
@@ -44,6 +44,6 @@ section-body{
   width: 50%
 }
 
-section-letter{
+.section-letter{
   width: 50%;
 }
