@@ -34,3 +34,16 @@ body{
   display: block;
   width: 100%
 }
+
+section-body{
+  text-align: left;
+  display: flex;
+}
+
+.section-icon{
+  width: 50%
+}
+
+section-letter{
+  width: 50%;
+}
