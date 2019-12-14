@@ -31,6 +31,7 @@ body{
 }
 
 .img-flex{
+  display: block;
   width: 100%;
 }
 
@@ -64,7 +65,7 @@ section{
   background-color: #e5c30a;
 }
 
-@media only screen and (min-width 25em) {
+@media only screen and (min-width: 25em) {
 
   .section-icon{
     padding: 0 .5rem;
@@ -76,7 +77,7 @@ section{
   }
 }
 
-@media only screen and (min-width 38em) {
+@media only screen and (min-width: 38em) {
 
   html {
     line-height: 1.4;
@@ -103,11 +104,14 @@ section{
 
 .section-icon {
   order: 10;
+  width: 13%;
+  padding: 0;
+  margin: 1rem;
 
 }
 }
 
-@media only screen and (min-width 60em){
+@media only screen and (min-width: 60em){
 
   html {
     line-height: 1.5;
@@ -133,7 +137,7 @@ section{
   }
 }
 
-@media only screen and (min-width 90em){
+@media only screen and (min-width: 90em){
 
   html {
     font-size: 130%;
