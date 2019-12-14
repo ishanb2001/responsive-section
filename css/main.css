@@ -76,3 +76,24 @@ section{
     line-height: 1.4;
     font-size: 110%;
   }
+
+.section-letter{
+   width: 30%;
+}
+
+.section-icon {
+  width: 30%;
+}
+
+.img-flex {
+  display: 100%;
+  width: 100%;
+}
+.section-body{
+  width: 20%;
+}
+
+.section{
+  margin: 0;
+}
+}
