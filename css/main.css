@@ -27,6 +27,7 @@ body{
   padding: 1.3rem;
   max-width: 45em;
   margin: 0 auto;
+  justify-content: space-between;
 }
 
 .img-flex{
@@ -44,11 +45,19 @@ body{
 }
 
 .section-letter{
+  text-align: center;
   width: 50%;
 }
 
+section h2 {
+  margin: 0;
+}
+
+section p {
+  margin: 0;
+}
+
 section{
-  display: flex;
   background-color: #e5c30a;
 }
 
@@ -125,7 +134,7 @@ section{
 @media only screen and (min-width 90em){
 
   html {
-    font-size: 120%;
+    font-size: 130%;
   }
 
 }
